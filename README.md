@@ -17,5 +17,7 @@ Panic_Attack_Data_Analysis-Snowflake.pbix
 Snowflake
 ## Dashboard url:
 https://app.powerbi.com/links/bZSDVJiAsL?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&pbi_source=linkShare
+## DAX Functions Used:
+IF, SWITCH, COUNTROWS, FILTERS & DIVIDE
 #################################################################################################
 
