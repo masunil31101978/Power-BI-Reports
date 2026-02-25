@@ -7,12 +7,14 @@ Men Tshirt all Brands - Azure SQL DB.pbix
 ## Database:
 Azure SQL DB
 ## Dashboard url:
-https://app.powerbi.com/groups/b6fb5f8f-329a-43d4-a745-915eef52f517/list?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&experience=power-bi
+https://app.powerbi.com/links/6WAYYLS8cv?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&pbi_source=linkShare
 #################################################################################################
-Men Tshirt all Brands Analysis
+## Report Name:
+Panic Attack Data Analysis
 ## File Name:
-Men Tshirt all Brands - Azure SQL DB.pbix
+Panic_Attack_Data_Analysis-Snowflake.pbix
 ## Database:
-Azure SQL DB
+Snowflake
 ## Dashboard url:
-https://app.powerbi.com/groups/b6fb5f8f-329a-43d4-a745-915eef52f517/list?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&experience=power-bi
+https://app.powerbi.com/links/bZSDVJiAsL?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&pbi_source=linkShare
+
