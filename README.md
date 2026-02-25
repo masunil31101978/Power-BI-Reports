@@ -6,7 +6,7 @@ DAX Functions
 ## File Name:
 DAX Functions.pbix
 ## Database:
-Azure SQL DB
+CALENDARTABLE
 ## Dashboard url:
 https://app.powerbi.com/links/tnvui3BYFD?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&pbi_source=linkShare
 ## DAX Functions Used:
