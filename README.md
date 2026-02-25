@@ -11,6 +11,7 @@ Azure SQL DB
 https://app.powerbi.com/links/tnvui3BYFD?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&pbi_source=linkShare
 ## DAX Functions Used:
 Several DAX Functions used.
+
 ########################################################################################
 
 ## Report Name:
@@ -23,6 +24,7 @@ Azure SQL DB
 https://app.powerbi.com/links/6WAYYLS8cv?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&pbi_source=linkShare
 ## DAX Functions Used:
 RANDBETWEEN, DIVIDE
+
 ########################################################################################
 
 ## Report Name:
@@ -35,5 +37,6 @@ Snowflake
 https://app.powerbi.com/links/bZSDVJiAsL?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1a5&pbi_source=linkShare
 ## DAX Functions Used:
 IF, SWITCH, COUNTROWS, FILTERS & DIVIDE
+
 ########################################################################################
 
