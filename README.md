@@ -1,5 +1,5 @@
 # Power-BI-Reports
-########################################################################################
+###################################################################################
 
 ## Report Name:
 DAX Functions
@@ -12,7 +12,7 @@ https://app.powerbi.com/links/tnvui3BYFD?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1
 ## DAX Functions Used:
 Several DAX Functions used.
 
-########################################################################################
+###################################################################################
 
 ## Report Name:
 Men Tshirt all Brands Analysis
@@ -25,7 +25,7 @@ https://app.powerbi.com/links/6WAYYLS8cv?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1
 ## DAX Functions Used:
 RANDBETWEEN, DIVIDE
 
-########################################################################################
+###################################################################################
 
 ## Report Name:
 Panic Attack Data Analysis
@@ -38,7 +38,7 @@ https://app.powerbi.com/links/bZSDVJiAsL?ctid=ed1b1d2a-78ce-46b7-9e84-5110a7caf1
 ## DAX Functions Used:
 IF, SWITCH, COUNTROWS, FILTERS & DIVIDE
 
-########################################################################################
+###################################################################################
 
 ## Report Name:
 Retail Store Analysis - Amazon RDS
