@@ -1,0 +1,39 @@
+Housing Data Analysis - Google BigQuery
+
+YOY Sales Growth = 
+    VAR Curr_Year_Sales = 
+        CALCULATE(SUM('Housing'[purchase_price]), YEAR('Housing'[date]) = YEAR(MAX('Housing'[date])))
+    VAR Prev_Year_Sales =
+        CALCULATE(SUM('Housing'[purchase_price]), YEAR('Housing'[date]) = YEAR(MAX('Housing'[date]))-1)
+    RETURN
+        IF(Prev_Year_Sales<>0, (Curr_Year_Sales-Prev_Year_Sales)/Prev_Year_Sales, BLANK())
+
+
+Offer Price = (100*'Housing'[purchase_price])/(100-'Housing'[%_change_between_offer_and_purchase])
+
+Median Sales Price Change = 
+    VAR Curr_Median_Price =
+            MEDIANX(FILTER('Housing', YEAR('Housing'[date].[Date]) = YEAR(MAX('Housing'[date].[Date]))), 
+            Housing[purchase_price])
+    VAR Prev_Median_Price = 
+            MEDIANX(FILTER('Housing', YEAR('Housing'[date].[Date]) = YEAR(MAX('Housing'[date].[Date]))-1), 
+            Housing[purchase_price])
+    RETURN
+        IF(Prev_Median_Price<>0, (Curr_Median_Price-Prev_Median_Price)/Prev_Median_Price, BLANK())
+
+Units Sold in Latest Year & Quarter = 
+    CALCULATE(DISTINCTCOUNT(Housing[house_id]), YEAR('Housing'[date])=YEAR(MAX('Housing'[date])) 
+                                            && QUARTER('Housing'[date])=QUARTER(MAX('Housing'[date])))
+
+Last 12 Month Sales = CALCULATE(SUM(Housing[purchase_price]), DATESINPERIOD('Housing'[date], MAX('Housing'[date]),-12,MONTH))
+
+Sales by Region = CALCULATE(SUM(Housing[purchase_price]), ALLEXCEPT('Housing',Housing[region]))
+
+TOTAL YTD Sales = TOTALYTD(SUM(Housing[purchase_price]), 'Housing'[date].[Date] )
+
+Average Price SQM = AVERAGE(Housing[sqm_price])
+
+Age = ABS(YEAR('Housing'[date].[Date]) - Housing[year_build])
+
+Offer to SQM Ration = DIVIDE(SUM(Housing[Offer Price]),SUM(Housing[sqm]))
+
